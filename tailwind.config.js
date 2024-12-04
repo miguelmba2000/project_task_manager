@@ -11,7 +11,18 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        outfit: ['Outfit', 'sans-serif'],
+      },
+      colors: {
+        primary: '#ff6347',
+        secondary: '#4b5563',
+      },
+      spacing: {
+        '128': '32rem',
+      },
     },
   },
   plugins: [],
 };
+
