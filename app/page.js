@@ -14,7 +14,10 @@ export default function Home() {
       time: 'Today 10:00 PM - 11:45 PM',
       completed: true,
       archived: false,
-      assignees: [],
+      assignees: [
+        { avatar: '/avatars/user.png', name: 'Alice' },
+        { avatar: '/avatars/user.png', name: 'Alice' },
+      ],
     },
     {
       id: 2,
@@ -23,7 +26,10 @@ export default function Home() {
       time: 'Today 09:15 PM - 10:00 PM',
       completed: true,
       archived: false,
-      assignees: [],
+      assignees: [
+        { avatar: '/avatars/user.png', name: 'Alice' },
+        { avatar: '/avatars/user.png', name: 'Alice' },
+      ],
     },
   ]);
 
