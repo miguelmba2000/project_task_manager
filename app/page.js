@@ -5,6 +5,7 @@ import TaskList from './components/TaskList';
 import AddTaskModal from './components/AddTaskModal';
 
 export default function Home() {
+  //deux tasks par défaut
   const [tasks, setTasks] = useState([
     {
       id: 1,
